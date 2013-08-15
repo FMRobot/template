@@ -1,0 +1,190 @@
+html{
+  font-family: georgia, times, serif;
+  font-size: 16px;
+  line-height: 1.47;
+  color:#000;
+  }
+
+@media all and (max-width: 600px) {
+  html{
+    font-size: 14px;
+    }
+  }
+
+@media all and (max-width: 500px) {
+  html{
+    font-size: 12px;
+    }
+  }
+
+a{
+  color: #0ba5b7;
+  padding: .75em;
+  margin: -.75em;
+  position: relative;
+  z-index: 1;
+  }
+
+a:hover{
+  text-decoration: none;
+  }
+
+strong,
+b{
+  font-weight: bold;
+  }
+
+del,
+s,
+s a,
+del a,
+del b,
+del strong,
+del i,
+del m,
+s code,
+del code{
+  font-family: inherit;
+  text-decoration: line-through;
+  color: #999;
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-size:inherit;
+  font-weight: normal;
+  line-height:inherit;
+  display: inline-block;
+  vertical-align: baseline;
+  }
+
+
+em,
+i{
+  font-style: italic;
+  }
+
+
+code{
+  display: inline-block;
+  font-family: "Droid Sans Mono", "Lucidia Console", "Menlo", "Courier New", Courier, monospace;
+  white-space: pre-line;
+  word-wrap: break-word;
+  padding:0 0.5em;
+  background-color: #f5f2f0;
+  font-size:smaller;
+  }
+
+pre code{
+  font-size: 19px;
+  font-size:1.1875rem;
+  }
+
+blockquote{
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: #c7c7c7;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.47;
+  margin:1.47em 0;
+  padding: 0 1em 0 1.47em;
+  }
+
+iframe,
+img{
+  max-width:100%;
+  display: block;
+  }
+
+
+ol, ul{
+  list-style: disc outside;
+  margin: 1.47em 0 1.47em 2.84em;
+  font-size:1.1rem;
+  line-height: 1.47;
+  }
+  ul ul{
+    list-style: circle outside;
+    margin: 0 0 0 2.375em;
+    }
+  ul ol{
+    list-style: decimal outside;
+    margin: 0 0 0 2.375em;
+    }
+
+ol{
+  list-style: decimal outside;
+  }
+  ol ol{
+    list-style: upper-roman outside;
+    margin: 0 0 0 2.375em;
+    }
+  ol ol{
+    list-style: disc outside;
+    margin: 0 0 0 2.375em;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  color: #000;
+  line-height: 1.1;
+  margin: 1.47em 0 .7em;
+  font-weight: bold;
+  }
+
+
+h1{
+  font-size: 48px;
+  font-size: 3rem;
+  margin: 1em 0;
+  }
+
+h2{
+  font-size: 36px;
+  font-size: 2.25rem;
+  }
+
+h3{
+  font-size: 24px;
+  font-size: 1.5rem;
+  }
+
+h4{
+  font-size: 21px;
+  font-size: 1.3125rem;
+  }
+
+h5{
+  font-size: 18px;
+  font-size: 2rem;
+  }
+
+  h1 code,
+  h2 code,
+  h3 code,
+  h4 code,
+  h5 code{
+    background: none;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    }
+
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+p{
+  font-size: 19px;
+  font-size:1.1875rem;
+  line-height: 1.47;
+  margin:1.47em 0;
+  }

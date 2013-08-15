@@ -1,0 +1,105 @@
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+    }
+  @page {
+    margin: 1.2cm;
+    }
+  nav{
+    display: none;
+    }
+  body>header .logotype{
+    margin: 0;
+    padding: 0 0 1.5cm;
+    font-size: 6rem;
+    }
+  .article-content .note{
+    padding: 1.47em;
+    }
+  .article-content{
+    max-width: none;
+    padding: 0;
+    }
+    .article-content  .footnote .back{
+      margin-right: .5rem;
+      }
+    .article-content del{
+      color: #000;
+      }
+      .article-content del i,
+      .article-content del em,
+      .article-content del strong,
+      .article-content del b,
+      .article-content del code,
+      .article-content del a{
+        text-decoration: line-through;
+        color: #000;
+        font-weight: normal;
+        font-style: italic;
+        }
+    .article-content figure figcaption{
+      color: #000;
+      background: none;
+      padding-left: 0;
+      padding-right: 0;
+      }
+    .article-content figure.video{
+      color: #000;
+      background: none;
+      }
+      .article-content figure.video figcaption{
+        color: #000;
+        background: none;
+        padding-left: 0;
+        padding-right: 0;
+        }
+    .article-content .note{
+      page-break-inside: avoid;
+      box-shadow:none;
+      }
+    .article-content h1{
+      margin-top: 0;
+      }
+    .article-content h1:before{
+      float: right;
+      margin: 0 0 0 1rem;
+      }
+    .article-content figure,
+    .article-content h1,
+    .article-content h2,
+    .article-content h3,
+    .article-content h4,
+    .article-content h5,
+    .article-content p,
+    .article-content code,
+    .article-content img,
+    .article-content table {
+      page-break-inside: avoid;
+      }
+    .article-content h1,
+    .article-content h2,
+    .article-content h3,
+    .article-content h4,
+    .article-content h5 {
+      page-break-after: avoid;
+      }
+    .article-content iframe{
+      display: none;
+      }
+    .article-content a{
+      color: #000;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      }
+    .article-content a[href^=http]:after {
+      content:" <" attr(href) "> ";
+      word-break: break-all;
+      font-size: smaller;
+      font-style: italic;
+      }
+    .article-content a[href^="#"]:after {
+      content: "";
+      }
+}

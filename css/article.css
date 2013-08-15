@@ -1,0 +1,164 @@
+.additional-data{
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+  }
+
+.article-source{
+  font-size:1.1875rem;
+  line-height: 1.47;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  }
+
+.article-social{
+  font-size:1rem;
+  line-height: 1.47;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  }
+  .article-social a{
+    margin-right: 1rem;
+    color: #000;
+    }
+  .article-social a:before{
+    margin-right: .5rem;
+    }
+
+
+.article-content header{
+  font-size: 0;
+  }
+  .article-content header h1{
+    margin-bottom: .25em;
+    }
+  .article-content header p:last-child:after{
+    display: none;
+    }
+  .article-content header p:after{
+    content:"•";
+    display: inline;
+    margin: 0 .5rem;
+    }
+  .article-content header p{
+    font-size: 0.75rem;
+    display: inline;
+    font-style: italic;
+    margin: 0;
+    white-space: nowrap;
+    }
+
+
+.article-content .note{
+  background-color: #f8f8f8;
+  padding: 1.47em 0;
+  margin:1.47em 0;
+  box-shadow: -1.47em 0 0 0 #f8f8f8, 1.47em 0 0 0 #f8f8f8;
+  }
+  .article-content .note p:first-child{
+    margin-top:0;
+    }
+  .article-content .note p:last-child{
+    margin-bottom:0;
+    }
+
+
+.article-content table{
+  text-align: left;
+  font-size: 1rem;
+  padding:0 .5rem 1rem 0;
+  margin: 1rem 0 2rem;
+  }
+  .article-content  tbody tr:hover th,
+  .article-content  tbody tr:hover td{
+    background-color: #fafafa;
+    box-shadow:-.5rem 0 0 0 #fafafa;
+    }
+  .article-content  th{
+    font-weight: bold;
+    }
+  .article-content  th,
+  .article-content  td{
+    padding:.5rem .5rem .5rem 0;
+    }
+
+
+.article-content  figure.video{
+  margin:1.47em 0;
+  padding: 1.47em;
+  background-color: #000;
+  text-align: center;
+  font-size: .85rem;
+  }
+  .article-content  figure.video figcaption{
+    display: block;
+    color: #FFF;
+    font-style: italic;
+    margin: 0;
+    padding: 1.47em 0 0;
+    text-align: left;
+    background: none;
+    }
+    .article-content  figure.video figcaption p{
+      font-size: .85rem;
+      font-style: italic;
+      line-height: 1.47;
+      margin: 1.47em 0 0;
+      padding: 0;
+      }
+
+.article-content  figure{
+  margin:1.47em 0;
+  }
+  .article-content  figure img{
+    display: block;
+    }
+  .article-content  figure figcaption{
+    background: #F8F8F8;
+    display: inline-block;
+
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.47;
+
+    margin: 0;
+    padding: 1.47em;
+    }
+
+.article-content  .reference{
+  vertical-align:super;
+  font-size: smaller;
+  padding: 1em;
+  margin: -1em;
+  position: relative;
+  z-index: 1;
+  }
+
+.article-content  .footnote{
+  position: relative;
+  margin: 1.47em 0;
+  font-style: italic;
+  font-size: 1rem;
+  }
+  .article-content  .footnote p{
+    font-size: 1rem;
+    }
+  .article-content  .footnote code{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    background: none;
+    }
+  .article-content  .footnote strong,
+  .article-content  .footnote b{
+    font-style: italic;
+    font-weight: normal;
+    }
+  .article-content  .footnote .back{
+    vertical-align:super;
+    display: inline-block;
+    margin-right: -.5rem;
+    font-size: 1rem;
+    }

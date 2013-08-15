@@ -1,0 +1,67 @@
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+.tomorrow-comment, code .comment {
+  color: #8e908c;
+}
+
+
+.tomorrow-red, code .variable,  code .tag, code .regexp, code .ruby .constant, code .xml .tag .title, code .xml .pi, code .xml .doctype, code .html .doctype, code .css .id, code .css .class, code .css .pseudo {
+  color: #c82829;
+}
+
+.tomorrow-orange, code .number, code .preprocessor, code .built_in, code .literal, code .params, code .constant {
+  color: #f5871f;
+}
+
+.tomorrow-yellow, code .attribute, code .class, code .ruby .class .title, code .css .rules .attribute {
+  color: #e97f00;
+}
+
+.tomorrow-green, code .string, code .value, code .inheritance, code .header, code .ruby .symbol, code .xml .cdata {
+  color: #718c00;
+}
+
+.tomorrow-aqua, code .css .hexcolor {
+  color: #3e999f;
+}
+
+.tomorrow-blue, code .function, code .python .decorator, code .python .title, code .ruby .function .title, code .ruby .title .keyword, code .perl .sub, code .javascript .title, code .coffeescript .title {
+  color: #4271ae;
+}
+
+.tomorrow-purple, code .keyword, code .javascript .function {
+  color: #8959a8;
+}
+
+a code{
+  display: inline-block;
+  }
+
+code {
+  display: inline;
+  white-space: nowrap;
+  color: #444;
+  padding: 0 4px;
+  padding: 0 .25rem;
+  background-color: #f7f2ed;
+  font-family: 'Meslo Light Regular', 'Menlo', Consolas, Monaco, 'Andale Mono', monospace;
+  }
+
+pre code {
+  margin: 0 0 16px;
+  margin: 0 0 1rem;
+  display: block;
+  padding: 1.63934426%;
+  overflow: auto;
+  white-space: pre;
+  line-height: 1.8;
+  }
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .cdata {
+  opacity: 0.5;
+}
