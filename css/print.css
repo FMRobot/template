@@ -14,6 +14,9 @@
     padding: 0 0 1.5cm;
     font-size: 6rem;
     }
+  .article-social{
+    display: none;
+    }
   .article-content .note{
     padding: 1.47em;
     }
