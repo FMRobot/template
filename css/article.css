@@ -188,14 +188,29 @@
 /**
  * User component
  */
-
-.user {
-  display: block;
-  margin: 10px 0;
-  width: 100%;
+.article-users{
+  padding: 10px 0;
+  margin-top: 10px;
 }
 
-.user::after{
+.article-users hr{
+  border-top: 1px dotted #000;
+  width: 100%;
+  height: 0;
+  padding: 0 1.47rem;
+  margin-left: -1.47rem;
+}
+
+.article-users section{
+  margin: 20px 0;
+  width: 50%;
+  float: left;
+  padding-left: 90px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.article-users section::after{
   content:"";
   display:block;
   height:0;
@@ -203,13 +218,26 @@
   clear:both;
 }
 
-.user > a{
+.article-users section > a{
   display: block;
   width: 80px;
   height: 80px;
   float: left;
+  margin-left: -90px;
+  /*margin-right: 10px;*/
 }
 
-.user .details {
+.article-users .details{
+  margin-top: -0.3em;
+  font-size: 0.7rem;
+  font-style: italic;
+  line-height: 2;
+}
 
+.article-users .details dl{
+  white-space: nowrap;
+}
+
+.article-users .details dl > *{
+  display: inline-block;
 }
