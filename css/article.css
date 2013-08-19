@@ -167,19 +167,20 @@
  * Tags component
  */
 
-.tags,
-.tags h3 {
+.article-tags,
+.article-tags h3 {
   color: #000;
   font-size: 1rem;
   font-style: italic;
   line-height: 1.7;
 }
 
-.tags a{
+.article-tags a{
   color: #0ba5b7;
   white-space: nowrap;
 }
 
-.tags h3 {
+.article-tags h3 {
   display: inline;
+  font-weight: normal;
 }
