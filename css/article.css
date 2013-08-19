@@ -163,126 +163,19 @@
     font-size: 1rem;
     }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-  *zoom: 1;
-}
-
 /**
  * Tags component
  */
 
-.tags__wrap{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  color: #0ba5b7;
-  font-style: italic;
-}
-
-
-.tags__item{
-  display: inline-block;
-  list-style: none;
-}
-
-.tags__link{
-  color: inherit;
-  display: inline-block;
-  /*background-color: #0ba5b7;*/
-  /*padding: 2px 5px;*/
-  /*margin: 0 5px;*/
-  /*color: #fff;*/
+.tags {
+  color: #000;
   font-size: 1rem;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.tags a{
+  color: #0ba5b7;
   white-space: nowrap;
 }
 
-/*
-
-.tags__item::before{
-  content: '#';
-}
-*/
-
-
-.tags__item::after{
-  content: ', ';
-}
-
-.tags__item:last-child::after{
-  content: '';
-}
-
-
-/**
- * Tags2 component
- */
-
-.tags2__wrap{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  color: #0ba5b7;
-  font-style: italic;
-}
-
-
-.tags2__item{
-  display: block;
-  float: left;
-  list-style: none;
-}
-
-.tags2__link{
-  display: inline-block;
-  margin: 0 1px 1px 0;
-  height: 36px;
-  padding: 0 10px;
-  color:#fff;
-  background-color: #0ba5b7;
-  font-size: 12px;
-  line-height: 36px;
-  text-decoration: none;
-}
-
-/*
-
-.tags2__item::before{
-  content: '#';
-}
-
-
-.tags2__item::after{
-  content: ', ';
-}
-
-.tags2__item:last-child::after{
-  content: '';
-}
-*/
