@@ -167,7 +167,8 @@
  * Tags component
  */
 
-.tags {
+.tags,
+.tags h3 {
   color: #000;
   font-size: 1rem;
   font-style: italic;
@@ -179,3 +180,6 @@
   white-space: nowrap;
 }
 
+.tags h3 {
+  display: inline;
+}
