@@ -167,9 +167,8 @@
  * Tags component
  */
 
-
 .article-tags,
-.article-tags h3 {
+.article-tags h3{
   color: #000;
   font-size: 1rem;
   font-style: italic;
@@ -181,7 +180,36 @@
   white-space: nowrap;
 }
 
-.article-tags h3 {
+.article-tags h3{
   display: inline;
   font-weight: normal;
+}
+
+/**
+ * User component
+ */
+
+.user {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.user::after{
+  content:"";
+  display:block;
+  height:0;
+  overflow:hidden;
+  clear:both;
+}
+
+.user > a{
+  display: block;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.user .details {
+
 }
