@@ -214,9 +214,10 @@
 .article-users section{
   width: 50%;
   float: left;
-  padding-left: 90px;
+  padding-left: 92px;
   box-sizing: border-box;
-  padding-right: 20px;
+  padding-right: 24px;
+  height: 80px;
 }
 
 .article-users section > a{
@@ -224,8 +225,7 @@
   width: 80px;
   height: 80px;
   float: left;
-  margin-left: -90px;
-  /*margin-right: 10px;*/
+  margin-left: -92px;
 }
 
 .article-users .details{
