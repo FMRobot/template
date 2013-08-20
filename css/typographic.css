@@ -19,6 +19,9 @@ html{
 
 a{
   color: #0ba5b7;
+  }
+
+html.touch article.article-content a{
   padding: .75em;
   margin: -.75em;
   position: relative;
