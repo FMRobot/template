@@ -403,8 +403,7 @@
     line-height: 1.47;
     }
   .article-comments .comment time{
-    font-style: italic;
-    color: #e2e2e2;
+    font-size: .8rem;
     float: right;
     }
   .article-comments .comment .wrapper{
