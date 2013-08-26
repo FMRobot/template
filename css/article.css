@@ -159,7 +159,7 @@
   .article-content  .footnote .back{
     vertical-align:super;
     display: inline-block;
-    margin-right: -.5rem;
+    /*margin-right: -.5rem;*/
     font-size: 1rem;
     }
 
