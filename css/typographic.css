@@ -185,6 +185,9 @@ h5{
     color: inherit;
     }
 
+form input,
+form button,
+form textarea,
 p{
   font-size: 19px;
   font-size:1.1875rem;
