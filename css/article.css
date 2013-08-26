@@ -251,7 +251,6 @@
 .article-comments{
   margin-bottom: 32px;
   margin-bottom: 2rem;
-
   }
 .article-comments:after,
 .article-comments .comment:after{
@@ -274,6 +273,7 @@
             transition: opacity .2s ease;
     }
     /*
+    не понял, что делает это правило и пока его закомментировал
   .article-comments form:after{
     content:".";
     font-size: 0;
@@ -355,7 +355,7 @@
         right: 0;
         opacity: 0.9;
         height: auto; 
-      }
+        }
   /**
    * /add-coment-form
    */
@@ -370,15 +370,10 @@
       font-size: 11px;
       font-weight: normal;
       }
-  /*
-  .article-comments .comment.preview{
-    opacity:.5;
-    }
-  */
   .article-comments .comment{ 
     margin: 36px 0 0;
     margin: 2.25rem 0 0;
-  }
+    }
   .article-comments .comment p:first-child{
     margin: 0;
     }
@@ -406,7 +401,7 @@
   .article-comments .comment time{  
     font-size: 1rem;
     line-height: 1.47;
-  }
+    }
   .article-comments .comment time{
     font-style: italic;
     color: #e2e2e2;
@@ -449,13 +444,30 @@
     margin: 0 0 0 .5rem;
     color:#000;
     }
-  .article-comments .more {
+  .article-comments .more{
     text-align: center;
-  }
-  .article-comments .more a {
+    }
+  .article-comments .more a{
     text-decoration: none;
     display: inline-block;
     border-bottom: 1px dotted;
     font-size: 1.1875rem;
     line-height: 1.47;
-  }
+    }
+  .related-articles{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+  .related-articles h3{}
+  .related-articles h4{
+    font-weight: normal;
+    margin: 0;
+    padding: .25em 0;
+    }
+  .related-articles h4 a{
+    color: #0ba5b7;
+    text-decoration: underline;
+    }
+  .related-articles h4 a:hover{
+    text-decoration: none;
+    }
