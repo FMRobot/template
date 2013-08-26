@@ -384,7 +384,6 @@
     float: left;
     }
   .article-comments .comment .author{
-    text-decoration: none;
     display: inline-block;
     margin: 0 16px 3px 0;
     margin: 0 1rem .2rem 0;
@@ -410,12 +409,18 @@
     .article-comments .comment .wrapper p{
       clear: both;
       }
+  .article-comments .logout,
+  .article-comments .login{
+    position: relative;
+    text-decoration: underline;
+    }
   .article-comments .logout:hover,
   .article-comments .login:hover{
     color: #0ba5b7;
+    text-decoration: none;
     }
   .article-comments .logout{
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: #000;
     display: inline-block;
     margin: 0 0 0 26px;
@@ -434,10 +439,13 @@
       }
   .article-comments .logout:after,
   .article-comments .login:after{
+    position: absolute;
+    left: 100%;
+    top: 0;
     content:"\f09b";
     font-family: "FontAwesome";
-    margin: 0 0 0 8px;
-    margin: 0 0 0 .5rem;
+    padding: 0 0 0 8px;
+    padding: 0 0 0 .5rem;
     color:#000;
     }
   .article-comments .more{
