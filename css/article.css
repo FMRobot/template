@@ -456,7 +456,10 @@
     display: inline-block;
     border-bottom: 1px dotted;
     font-size: 1.1875rem;
-    line-height: 1.47;
+    line-height: 1;
+    }
+  .article-comments .more a:hover{
+    border-color: transparent;
     }
   .related-articles{
     margin-top: 10px;
