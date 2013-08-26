@@ -189,12 +189,9 @@
  * User component
  */
 .article-users{
-  padding: 12px 1.47rem;
+  padding: 13px 1.47rem;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px dotted #ddd;
-  border-left: 0;
-  border-right: 0;
 }
 
 .article-users::after,
